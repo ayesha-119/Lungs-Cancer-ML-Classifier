@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lung Nodule Malignancy Classifier</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Lung Nodule Malignancy Classifier</h1>
+    <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" id="image-input" accept="image/*">
+        <button type="button" onclick="predict()">Predict</button>
+        <p id="error-message"></p>
+    </form>
+    
+    <div id="image-preview"></div> <!-- Add this div to display selected image -->
+    <div id="error-message"></div> <!-- Add this div to display error message -->
+    <div id="prediction-result"></div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

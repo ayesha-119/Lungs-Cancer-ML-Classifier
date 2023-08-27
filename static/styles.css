@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#image-input {
+    margin-right: 10px;
+}
+
+#error-message {
+    color: red;
+}
+
+#image-preview img {
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+#prediction-result {
+    margin-top: 20px;
+}
