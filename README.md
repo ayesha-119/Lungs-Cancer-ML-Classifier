@@ -1,13 +1,15 @@
 # Lungs-Cancer-ML-Classifier
 
 
-![GitHub](https://github.com/ayesha-119/Lungs-Cancer-ML-Classifier)
+
 
 This repository contains an end-to-end project for lung nodule classification using multiple deep learning models and Flask for web deployment.
 
 ## Table of Contents
 
 - [Description](#description)
+- [Introduction](#introduction)
+- [Why Timely Diagnosis of Lung Nodules](#why-timely-diagnosis-of-lung-nodules)
 - [Models](#models)
 - [Dataset](#dataset)
 - [Installation](#installation)
@@ -20,7 +22,24 @@ This repository contains an end-to-end project for lung nodule classification us
 
 ## Description
 
-This project demonstrates the implementation and deployment of multiple deep learning models for lung nodule classification. The web application allows users to upload CT scan images of lung nodules and receive predictions about the malignancy of the nodules.
+This project demonstrates the implementation and deployment of multiple deep-learning models for lung nodule classification. The web application allows users to upload CT scan images of lung nodules and receive predictions about the malignancy of the nodules.
+## Introduction
+
+Lung cancer is one of the most common and deadly forms of cancer worldwide. Early detection and accurate diagnosis are critical for improving patient outcomes. Timely identification of lung nodules, small abnormal growths in the lungs, is a crucial step in diagnosing lung cancer. These nodules can be benign (non-cancerous) or malignant (cancerous), and distinguishing between them is challenging.
+
+This project addresses the need for automated lung nodule classification using deep learning techniques. By leveraging state-of-the-art deep learning models, we aim to provide medical professionals with a tool that aids in accurately and efficiently classifying lung nodules, thereby facilitating early intervention and treatment.
+
+## Why Timely Diagnosis of Lung Nodules
+
+The significance of timely diagnosis of lung nodules cannot be overstated. Here's why it matters:
+
+1. **Early Detection:** Early detection of lung cancer increases the chances of successful treatment and improves patient survival rates.
+
+2. **Personalized Treatment:** Accurate classification of lung nodules helps medical professionals tailor treatment plans based on the nodule's malignancy, leading to better outcomes for patients.
+
+3. **Reduced Healthcare Costs:** Early diagnosis and treatment of lung nodules can reduce the need for extensive and costly interventions that might be required in advanced stages of cancer.
+
+4. **Enhanced Patient Care:** Providing medical professionals with an efficient tool for nodule classification speeds up the diagnostic process and allows for more focused patient care.
 
 ## Models
 
